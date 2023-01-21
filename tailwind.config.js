@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "body": "#17171F"
+        "body": "#17171F",
+        "theme": "#ADD8E6"
       },
       screens: {
         "sm":"420px"
