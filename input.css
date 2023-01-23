@@ -29,17 +29,28 @@ html, body {
     @apply bg-project-background-theme border border-project-border rounded-md overflow-hidden hover:bg-project-hover-theme;
   }
 
+  .project-image {
+    @apply p-3 border-green-400 mx-auto border-dashed rounded-xl border-l border-r h-40 w-auto
+  }
+
+  .project-image-border-style {
+    @apply mx-auto border-blue-400 border-dashed
+  }
+
   .languages-frameworks {
-    @apply rounded-lg text-project-language-text-theme px-2 py-1 mt-2 m-1;
+    @apply font-mono rounded-lg text-project-language-text-theme px-2 py-1 mt-2 m-1 text-xs;
   }
 
   .project-heading {
-    @apply mb-2 text-2xl font-bold tracking-tight gradient-text-green-blue;
+    @apply mb-2 text-lg font-bold tracking-tight gradient-text-green-blue;
   }
 
   .button-style {
     @apply rounded-xl px-2 py-1 text-black gradient-green-blue hover:scale-105
   }
 
+  .project-text {
+    @apply text-project-descrption-theme text-sm 2xl:text-lg;
+  }
 
 }

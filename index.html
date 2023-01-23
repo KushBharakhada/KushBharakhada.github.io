@@ -8,13 +8,14 @@
   <title>Personal Portfolio</title>
 </head>
 
-<body class="bg-website-background text-website-text-theme font-mono">
+<!--Minimum screen width set to 320px-->
+<body class="bg-website-background text-website-text-theme font-mono min-w-[320px]">
 
-  <header class="py-6 px-10">
+  <header class="py-6 px-10 text-m 2xl:text-xl">
     <div class="container flex justify-between items-center mx-auto px-5 md:px-10 lg:px-15 w-full">
-      <h1 class="text-xl font-bold tracking-wide">Kush Bharakhada</h1>
+      <h1 class="font-bold tracking-wide mr-3">Kush Bharakhada</h1>
       <div class="flex items-center">
-        <a href="#projects"><h1 class="font-mono text-xl font-bold tracking-wide text-blue-300">Projects</h1></a>
+        <a href="#projects"><h1 class="font-mono font-bold tracking-wide text-blue-300">Projects</h1></a>
         <img src="images/projects-icon.png" class="h-10 ml-2">
       </div>
     </div>
@@ -22,36 +23,37 @@
   </header>
 
   <nav class="px-10 justify-center w-full h-full block text-center py-6 bg-neural-net-nav">
-    <div class="pb-10 tracking-wide text-2xl md:text-3xl lg:text-4xl text-center gradient-text-green-blue">
-      <h1 class="font-bold py-2">Computer Science & <span class="text-green-300">Artificial Intelligence</span> Student<h1>
+    <div class="pb-10 tracking-wide text-center gradient-text-green-blue">
+      <h1 class="text-lg lg:text-xl font-bold py-2">Computer Science & <span class="text-green-300">Artificial Intelligence</span> Student<h1>
       <div class="block sm:inline-flex items-center">
-        <p class="text-lg font-bold">@The University of Sheffield</p>
+        <p class="text-sm lg:text-lg font-bold">@The University of Sheffield</p>
         <img src="images/university-icon.png" class="h-5 px-2 mx-auto">
       </div>  
     </div>
     <a href="#projects"><button type="button"><img class="animate-bounce h-10" src="images/scroll-down.png"></button></a>
   </nav>
 
-  <main id="projects" class="py-6 px-5 font-serif animate-fade">
+  <main id="projects" class="py-6 px-3 font-serif animate-fade">
     
-  
     <div class="items-center">
-      <div class="flex-1 mx-auto p-5">
-        <div class="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <div class="flex-1 mx-auto">
+        <div class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           
           <div class="main-project-div show-on-scroll">
-            <img class="mx-auto" src="images/test.jpg" alt="alt text goes here">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
               <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-python">Python</p>
+              <p class="languages-frameworks bg-html">HTML</p>
+              <p class="languages-frameworks bg-css">CSS</p>
+              <p class="languages-frameworks bg-haskell">Haskell</p>
             </div>
             <div class="p-4 text-center clear-both">
               <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="text-project-descrption-theme">22/12/2022</p>
+              <p class="project-text">22/12/2022</p>
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 text-project-descrption-theme">
+              <p class="mb-3 project-text">
                 Lots of text text text text text text text text text text text text text text text 
                 text text text text text text text text text text text text text text text text text 
                 text text text text text text text text text text text text text text text text text 
@@ -61,38 +63,111 @@
               <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
             </div>
           </div> 
-          
+
+
           <div class="main-project-div show-on-scroll">
-            <img class="mx-auto" src="images/test.jpg" alt="alt text goes here">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
               <p class="languages-frameworks bg-python">Python</p>
+              <p class="languages-frameworks bg-html">HTML</p>
+              <p class="languages-frameworks bg-css">CSS</p>
+              <p class="languages-frameworks bg-haskell">Haskell</p>
             </div>
             <div class="p-4 text-center clear-both">
               <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="text-project-descrption-theme">22/12/2022</p>
+              <p class="project-text">22/12/2022</p>
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 text-project-descrption-theme">
-                Lots of text text text text text text text text text text text text text text text
+              <p class="mb-3 project-text">
+                Lots of text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text.
               </p>
               <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
             </div>
           </div> 
 
+
           <div class="main-project-div show-on-scroll">
-            <img class="mx-auto" src="images/test.jpg" alt="alt text goes here">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
               <p class="languages-frameworks bg-python">Python</p>
+              <p class="languages-frameworks bg-html">HTML</p>
+              <p class="languages-frameworks bg-css">CSS</p>
+              <p class="languages-frameworks bg-haskell">Haskell</p>
             </div>
             <div class="p-4 text-center clear-both">
               <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="text-project-descrption-theme">22/12/2022</p>
+              <p class="project-text">22/12/2022</p>
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 text-project-descrption-theme">
-                Lots of text text text text text text text text text text text text text text text
+              <p class="mb-3 project-text">
+                Lots of text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text.
+              </p>
+              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+            </div>
+          </div>
+
+          
+          <div class="main-project-div show-on-scroll">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <hr class="-translate-y-2 project-image-border-style">
+            <div class="flex flex-wrap float-right">
+              <p class="languages-frameworks bg-python">Python</p>
+              <p class="languages-frameworks bg-html">HTML</p>
+              <p class="languages-frameworks bg-css">CSS</p>
+              <p class="languages-frameworks bg-haskell">Haskell</p>
+            </div>
+            <div class="p-4 text-center clear-both">
+              <h5 class="project-heading">Title of Project Goes Here</h5>
+              <p class="project-text">22/12/2022</p>
+              <hr class="horizontal-gradient-line">
+              <p class="mb-3 project-text">
+                Lots of text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text.
               </p>
               <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
             </div>
           </div> 
+
+
+          <div class="main-project-div show-on-scroll">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <hr class="-translate-y-2 project-image-border-style">
+            <div class="flex flex-wrap float-right">
+              <p class="languages-frameworks bg-python">Python</p>
+              <p class="languages-frameworks bg-html">HTML</p>
+              <p class="languages-frameworks bg-css">CSS</p>
+              <p class="languages-frameworks bg-haskell">Haskell</p>
+            </div>
+            <div class="p-4 text-center clear-both">
+              <h5 class="project-heading">Title of Project Goes Here</h5>
+              <p class="project-text">22/12/2022</p>
+              <hr class="horizontal-gradient-line">
+              <p class="mb-3 project-text">
+                Lots of text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text text 
+                text text text text text text text text text text text text text text text text.
+              </p>
+              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+            </div>
+          </div> 
+
           
         </div>
       </div>
@@ -100,13 +175,13 @@
     <script src="js/scroll.js"></script>
   </main>
 
-  <footer class="text-center py-6 px-10">
+  <footer class="text-center py-6 px-10 text-xs">
     <hr class="mb-3 horizontal-gradient-line">
     <div class="inline-flex">
       <a class="mx-auto" href="https://github.com/KushBharakhada">
-        <img class="h-14 mx-2 rounded-full" src="images/github-logo.png" alt="github logo"></a>
+        <img class="h-8 mx-2 rounded-full" src="images/github-logo.png" alt="github logo"></a>
       <a class="mx-auto" href="https://uk.linkedin.com/in/kushbharakhada">
-        <img class="h-14 mx-2 rounded-full" src="images/linkedin-logo.png" alt="linkedin logo"></a>
+        <img class="h-8 mx-2 rounded-full" src="images/linkedin-logo.png" alt="linkedin logo"></a>
     </div>
 
     <p>Built by Kush Bharakhada, 2023</p>
