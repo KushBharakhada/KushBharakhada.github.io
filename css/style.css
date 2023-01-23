@@ -586,7 +586,7 @@ video {
 
 .main-project-div:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-color: rgb(24 25 41 / var(--tw-bg-opacity));
 }
 
 .project-image {
@@ -601,6 +601,12 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
   padding: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    height: 16rem;
+  }
 }
 
 .project-image-border-style {
@@ -677,6 +683,10 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .float-right {
   float: right;
 }
@@ -729,6 +739,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .h-10 {
@@ -839,14 +853,14 @@ video {
   background-color: rgb(0 68 107 / var(--tw-bg-opacity));
 }
 
-.bg-html {
+.bg-github-public {
   --tw-bg-opacity: 1;
-  background-color: rgb(69 1 74 / var(--tw-bg-opacity));
+  background-color: rgb(0 107 32 / var(--tw-bg-opacity));
 }
 
-.bg-css {
+.bg-java {
   --tw-bg-opacity: 1;
-  background-color: rgb(133 135 18 / var(--tw-bg-opacity));
+  background-color: rgb(173 0 20 / var(--tw-bg-opacity));
 }
 
 .bg-haskell {
@@ -855,7 +869,7 @@ video {
 }
 
 .bg-neural-net-nav {
-  background-image: url('/images/neural-network-background.jpg');
+  background-image: url('/images/backgrounds/neural-network-background.jpg');
 }
 
 .p-4 {
@@ -946,6 +960,15 @@ video {
   color: rgb(134 239 172 / var(--tw-text-opacity));
 }
 
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 /* Raw CSS */
 
 html, body {
@@ -976,8 +999,8 @@ html, body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:gap-6 {
@@ -1001,6 +1024,10 @@ html, body {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;

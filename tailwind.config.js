@@ -7,7 +7,7 @@ module.exports = {
         "website-text-theme": "white",
         "website-background": "black",
         "project-background-theme": "#111827",
-        "project-hover-theme": "#1e293b",
+        "project-hover-theme": "#181929",
         "project-border": "#202c45",
         "project-descrption-theme": "#8490ab",
         "project-language-text-theme": "white",
@@ -24,7 +24,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        "neural-net-nav": "url('/images/neural-network-background.jpg')"
+        "neural-net-nav": "url('/images/backgrounds/neural-network-background.jpg')"
       },
 
       screens: {

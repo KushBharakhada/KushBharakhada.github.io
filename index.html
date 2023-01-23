@@ -16,7 +16,7 @@
       <h1 class="font-bold tracking-wide mr-3">Kush Bharakhada</h1>
       <div class="flex items-center">
         <a href="#projects"><h1 class="font-mono font-bold tracking-wide text-blue-300">Projects</h1></a>
-        <img src="images/projects-icon.png" class="h-10 ml-2">
+        <img src="images/icons/projects-icon.png" class="h-10 ml-2">
       </div>
     </div>
     <hr class="mt-2 horizontal-gradient-line">
@@ -27,151 +27,214 @@
       <h1 class="text-lg lg:text-xl font-bold py-2">Computer Science & <span class="text-green-300">Artificial Intelligence</span> Student<h1>
       <div class="block sm:inline-flex items-center">
         <p class="text-sm lg:text-lg font-bold">@The University of Sheffield</p>
-        <img src="images/university-icon.png" class="h-5 px-2 mx-auto">
+        <img src="images/icons/university-icon.png" class="h-5 px-2 mx-auto">
       </div>  
     </div>
-    <a href="#projects"><button type="button"><img class="animate-bounce h-10" src="images/scroll-down.png"></button></a>
+    <a href="#projects"><button type="button"><img class="animate-bounce h-10" src="images/icons/scroll-down.png"></button></a>
   </nav>
 
   <main id="projects" class="py-6 px-3 font-serif animate-fade">
     
     <div class="items-center">
       <div class="flex-1 mx-auto">
-        <div class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           
+          <!-- HTRU2 Bayesian Classification Project -->
           <div class="main-project-div show-on-scroll">
             <hr class="translate-y-2 project-image-border-style mt-3">
-            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/htru2-classification.jpg" alt="pulsar star">
             <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
+              <!-- Languages and Frameworks used. Also state Public/Private -->
               <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-html">HTML</p>
-              <p class="languages-frameworks bg-css">CSS</p>
-              <p class="languages-frameworks bg-haskell">Haskell</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
             </div>
             <div class="p-4 text-center clear-both">
-              <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="project-text">22/12/2022</p>
+              <h5 class="project-heading">HTRU2 Bayesian Classification</h5> <!-- Project Title -->
+              <p class="project-text">13th October 2022</p> <!-- Project Start Date -->
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 project-text">
-                Lots of text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text.
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                Experimenting using Bayesian Classification to classify Pulsar and Non-Pulsar stars. 
+                There are two methods, they differ in the proportion of data used for 
+                Testing and Training. The priors are calculated using the whole data set. 
+                Method one splits the data 50-50, whereas method two use more data for 
+                training using Leave-one-out testing. The idea of this project was to 
+                experiment with Bayesian Classification and ways of splitting data into 
+                testing and training.
               </p>
-              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/HTRU2-Bayesian-Classification"><button class="button-style">View Project</button></a>
             </div>
           </div> 
 
-
+          <!-- Pong vs Bot Python Project -->
           <div class="main-project-div show-on-scroll">
             <hr class="translate-y-2 project-image-border-style mt-3">
-            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/pong-vs-bot.jpg" alt="pong game">
             <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
+              <!-- Languages and Frameworks used. Also state Public/Private -->
               <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-html">HTML</p>
-              <p class="languages-frameworks bg-css">CSS</p>
-              <p class="languages-frameworks bg-haskell">Haskell</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
             </div>
             <div class="p-4 text-center clear-both">
-              <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="project-text">22/12/2022</p>
+              <h5 class="project-heading">Pong against a Bot</h5> <!-- Project Title -->
+              <p class="project-text">6th September 2022</p> <!-- Project Start Date -->
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 project-text">
-                Lots of text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text.
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                Pong game created using Pygame. The player plays against a bot. Player and the 
+                bot both start with 5 lives. The bot uses the vertical position of the puck 
+                to position itself so it can hit the puck back towards the player. 
+                I initially followed a <a class="text-blue-400" href="https://www.youtube.com/c/TechWithTim">TechWithTim</a> 
+                tutorial but modified it for the user to play against a bot. 
+                The main idea of this project was to learn Pygame.
               </p>
-              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/Pong-VS-Bot"><button class="button-style">View Project</button></a>
             </div>
           </div> 
 
-
+          <!-- Space Race Project -->
           <div class="main-project-div show-on-scroll">
             <hr class="translate-y-2 project-image-border-style mt-3">
-            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/space-race.jpg" alt="space race game">
             <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
-              <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-html">HTML</p>
-              <p class="languages-frameworks bg-css">CSS</p>
-              <p class="languages-frameworks bg-haskell">Haskell</p>
+              <!-- Languages and Frameworks used. Also state Public/Private -->
+              <p class="languages-frameworks bg-java">Java</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
             </div>
             <div class="p-4 text-center clear-both">
-              <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="project-text">22/12/2022</p>
+              <h5 class="project-heading">Space Race Game</h5> <!-- Project Title -->
+              <p class="project-text">5th August 2022</p> <!-- Project Start Date -->
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 project-text">
-                Lots of text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text.
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                A simple game created by with <a class="text-blue-400" href="https://github.com/Fokkos">James March</a>. 
+                Player must avoid asteroids and collect the target to level up. With each level, the speed of the asteroids 
+                increases, making it more difficult to get to the target. Player starts with 3 lives and 
+                the aim of the game is for the player to reach the highest level they can get to.
               </p>
-              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/Space-Race"><button class="button-style">View Project</button></a>
+            </div>
+          </div> 
+
+          <!-- Caesar Cipher Cracker Project -->
+          <div class="main-project-div show-on-scroll">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/caesar-cipher-cracker.jpg" alt="terminal window">
+            <hr class="-translate-y-2 project-image-border-style">
+            <div class="flex flex-wrap float-right">
+              <!-- Languages and Frameworks used. Also state Public/Private -->
+              <p class="languages-frameworks bg-haskell">Haskell</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
+            </div>
+            <div class="p-4 text-center clear-both">
+              <h5 class="project-heading">Caesar Cipher Cracker</h5> <!-- Project Title -->
+              <p class="project-text">2nd August 2022</p> <!-- Project Start Date -->
+              <hr class="horizontal-gradient-line">
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                Allows a user to shift text using a shift value or a user can find the 
+                shift value of some ciphered text. This shift value can then be used to decipher 
+                the ciphered text. The more text given, the more likely the shift value will be correct. 
+                Uses the relative frequency of each letter in the english language and the frequency 
+                of each letter in the given text to calculate the most likely shift key to get the 
+                original english text.
+              </p>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/Caesar-Cipher-Cracker"><button class="button-style">View Project</button></a>
+            </div>
+          </div> 
+
+          <!-- Text File Encryption/Decryption Project -->
+          <div class="main-project-div show-on-scroll">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/file-encryption.jpg" alt="java graphical user interface">
+            <hr class="-translate-y-2 project-image-border-style">
+            <div class="flex flex-wrap float-right">
+              <!-- Languages and Frameworks used. Also state Public/Private -->
+              <p class="languages-frameworks bg-java">Java</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
+            </div>
+            <div class="p-4 text-center clear-both">
+              <h5 class="project-heading">Text File Content Encryption / Decryption</h5> <!-- Project Title -->
+              <p class="project-text">7th July 2022</p> <!-- Project Start Date -->
+              <hr class="horizontal-gradient-line">
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                Allows a user to encrypt and decrypt the contents of a .txt file. 
+                Uses the Advanced Encryption Standard (AES) algorithm (as a Symmetric Key encryption 
+                algorithm is required, a 256 bit keysize, PKCS#5 padding to meet the 128 bit block size 
+                requirement), Cipher Block Chaining (CBC) mode (with a random 16 byte Initialisation Vector) 
+                and a MIME encoding/decoding scheme. Created this project to experiment with encryption
+                and Java Swing.
+              </p>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/File-Encryption"><button class="button-style">View Project</button></a>
+            </div>
+          </div> 
+
+          <!-- Sudoku Solver using a GUI Project -->
+          <div class="main-project-div show-on-scroll">
+            <hr class="translate-y-2 project-image-border-style mt-3">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/sudoku-solver.jpg" alt="sudoku grid">
+            <hr class="-translate-y-2 project-image-border-style">
+            <div class="flex flex-wrap float-right">
+              <!-- Languages and Frameworks used. Also state Public/Private -->
+              <p class="languages-frameworks bg-java">Java</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
+            </div>
+            <div class="p-4 text-center clear-both">
+              <h5 class="project-heading">Sudoku Solver with Java GUI</h5> <!-- Project Title -->
+              <p class="project-text">16th June 2022</p> <!-- Project Start Date -->
+              <hr class="horizontal-gradient-line">
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                The Sudoko Solver display's a 9x9 grid, in which a user inputs the grid to be solved. 
+                The output can be seen on the GUI once solve has been clicked. A board of all 0's 
+                signifies the input board cannot be solved. The GUI was created using Java Swing.
+              </p>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/Sudoku-Solver"><button class="button-style">View Project</button></a>
             </div>
           </div>
 
-          
+          <!-- Convolution filters/Image Processing Java Project -->
           <div class="main-project-div show-on-scroll">
             <hr class="translate-y-2 project-image-border-style mt-3">
-            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
+            <!-- Project Image -->
+            <img class="project-image" src="images/projects/image-filter-processing.jpg" alt="tree">
             <hr class="-translate-y-2 project-image-border-style">
             <div class="flex flex-wrap float-right">
-              <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-html">HTML</p>
-              <p class="languages-frameworks bg-css">CSS</p>
-              <p class="languages-frameworks bg-haskell">Haskell</p>
+              <!-- Languages and Frameworks used. Also state Public/Private -->
+              <p class="languages-frameworks bg-java">Java</p>
+              <p class="languages-frameworks bg-github-public">Public</p>
             </div>
             <div class="p-4 text-center clear-both">
-              <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="project-text">22/12/2022</p>
+              <h5 class="project-heading">Image Filter Processing Using Convolution Filters</h5> <!-- Project Title -->
+              <p class="project-text">13th January 2022</p> <!-- Project Start Date -->
               <hr class="horizontal-gradient-line">
-              <p class="mb-3 project-text">
-                Lots of text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text.
+              <p class="mb-3 mt-3 project-text"> <!-- Description of Project -->
+                Uses the idea of convolution filters and sobel edge detection to find 
+                edges and parts of an image. A filter is run horizontally and vertically. 
+                Both gradients are then combined. These pixels are then plotted to produce 
+                a new image. The input image can be RGB. The output image will be 2 pixels 
+                less in height and width compared to the input image due to the convolution 
+                filters. Can process a .png or .jpeg/jpg file and will always produce a .jpeg/jpg file.
               </p>
-              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
+              <!-- Remove if Private Repository -->
+              <a href="https://github.com/KushBharakhada/Image-Filter-Processing"><button class="button-style">View Project</button></a>
             </div>
           </div> 
-
-
-          <div class="main-project-div show-on-scroll">
-            <hr class="translate-y-2 project-image-border-style mt-3">
-            <img class="project-image" src="images/test.jpg" alt="alt text goes here">
-            <hr class="-translate-y-2 project-image-border-style">
-            <div class="flex flex-wrap float-right">
-              <p class="languages-frameworks bg-python">Python</p>
-              <p class="languages-frameworks bg-html">HTML</p>
-              <p class="languages-frameworks bg-css">CSS</p>
-              <p class="languages-frameworks bg-haskell">Haskell</p>
-            </div>
-            <div class="p-4 text-center clear-both">
-              <h5 class="project-heading">Title of Project Goes Here</h5>
-              <p class="project-text">22/12/2022</p>
-              <hr class="horizontal-gradient-line">
-              <p class="mb-3 project-text">
-                Lots of text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text text 
-                text text text text text text text text text text text text text text text text.
-              </p>
-              <a href="https://www.google.co.uk/"><button class="button-style">View Project</button></a>
-            </div>
-          </div> 
-
           
         </div>
       </div>
     </div>
+
     <script src="js/scroll.js"></script>
   </main>
 
@@ -179,9 +242,9 @@
     <hr class="mb-3 horizontal-gradient-line">
     <div class="inline-flex">
       <a class="mx-auto" href="https://github.com/KushBharakhada">
-        <img class="h-8 mx-2 rounded-full" src="images/github-logo.png" alt="github logo"></a>
+        <img class="h-8 mx-2 rounded-full" src="images/icons/github-logo.png" alt="github logo"></a>
       <a class="mx-auto" href="https://uk.linkedin.com/in/kushbharakhada">
-        <img class="h-8 mx-2 rounded-full" src="images/linkedin-logo.png" alt="linkedin logo"></a>
+        <img class="h-8 mx-2 rounded-full" src="images/icons/linkedin-logo.png" alt="linkedin logo"></a>
     </div>
 
     <p>Built by Kush Bharakhada, 2023</p>
