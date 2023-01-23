@@ -32,7 +32,7 @@ module.exports = {
       },
 
       animation: {
-        fade: "fade 2s ease-in forwards"
+        fade: "fade 1s ease-in forwards"
       },
 
       keyframes: {

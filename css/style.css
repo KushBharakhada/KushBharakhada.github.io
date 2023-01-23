@@ -812,7 +812,7 @@ video {
 }
 
 .animate-fade {
-  animation: fade 2s ease-in forwards;
+  animation: fade 1s ease-in forwards;
 }
 
 .grid-cols-1 {
@@ -866,6 +866,26 @@ video {
 .bg-haskell {
   --tw-bg-opacity: 1;
   background-color: rgb(156 70 0 / var(--tw-bg-opacity));
+}
+
+.bg-html {
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 1 74 / var(--tw-bg-opacity));
+}
+
+.bg-css {
+  --tw-bg-opacity: 1;
+  background-color: rgb(133 135 18 / var(--tw-bg-opacity));
+}
+
+.bg-javascript {
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 6 16 / var(--tw-bg-opacity));
+}
+
+.bg-other {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 1 128 / var(--tw-bg-opacity));
 }
 
 .bg-neural-net-nav {
