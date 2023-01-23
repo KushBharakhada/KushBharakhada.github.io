@@ -1,3 +1,4 @@
+/*npx tailwindcss -i ./input.css -o ./css/style.css --watch*/
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
