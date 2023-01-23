@@ -1,4 +1,4 @@
-// Makes the content appear on scroll, slowly fading images in
+// Makes the content appear on scroll, slowly fading images into view
 
 const callback = function (entries) {
   entries.forEach((entry) => {
