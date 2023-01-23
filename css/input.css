@@ -30,7 +30,7 @@ html, body {
   }
 
   .project-image {
-    @apply p-3 border-green-400 mx-auto border-dashed rounded-xl border-l border-r h-40 md:h-64 w-auto
+    @apply p-3 border-green-400 mx-auto border-dashed rounded-xl border-l border-r h-52 md:h-64 w-auto
   }
 
   .project-image-border-style {
