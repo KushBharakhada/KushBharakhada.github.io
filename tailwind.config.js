@@ -12,12 +12,12 @@ module.exports = {
       },
 
       animation: {
-        fade: "fade 1s ease-in forwards"
+        fade: "fade 2s ease-in forwards"
       },
       keyframes: {
         fade: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 }
+          "0%": { opacity: 0, filter: "blur(1px)" },
+          "100%": { opacity: 1, filter: "blur(0)" }
         }
       }
     },
