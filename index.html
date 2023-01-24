@@ -4,14 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kush Bharakhada">
+  <meta name="description" content="Kush Bharakhada Projects Portfolio"/>
+  <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
   <link href="./css/style.css" rel="stylesheet">
   <script src="js/filter.js"></script>
-  <title>Personal Portfolio</title>
+  <title>Kush Bharakhada</title>
 </head>
 
 <!--Minimum screen width set to 340px-->
 <body class="bg-website-background text-website-text-theme font-mono min-w-[340px]">
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <header class="py-6 px-10 text-m 2xl:text-xl">
     <div class="container flex justify-between items-center mx-auto px-5 md:px-10 lg:px-15 w-full">
       <h1 class="font-bold tracking-wide mr-3">Kush Bharakhada</h1>
@@ -23,6 +28,7 @@
     <hr class="mt-2 horizontal-gradient-line">
   </header>
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~ NAVIGATION ~~~~~~~~~~~~~~~~~~~~~~~-->
   <nav class="px-10 justify-center w-full h-full block text-center py-6 bg-neural-net-nav">
     <div class="pb-10 tracking-wide text-center gradient-text-green-blue">
       <h1 class="text-lg lg:text-xl font-bold py-2">Computer Science & <span class="text-green-300">Artificial Intelligence</span> Student<h1>
@@ -34,16 +40,21 @@
     <a href="#projects"><button type="button"><img class="animate-bounce h-10" src="images/icons/scroll-down.png"></button></a>
   </nav>
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <main class="py-6 px-3 font-serif animate-fade">
 
+    <!-- Filter section -->
     <div class="mx-auto text-center mt-3 mb-3">
-      <input type="text" placeholder="filter e.g. python" id="filter-input" class="text-sm font-mono text-blue-400 p-2 border border-project-border rounded-lg bg-project-background-theme">
+      <input type="text" placeholder="filter e.g. python" id="filter-input" 
+             class="text-sm font-mono text-blue-400 p-2 border border-project-border rounded-lg bg-project-background-theme">
       <button class="button-style text-sm ml-2" onclick="filter()">Enter</button>
       <button class="button-style text-sm ml-2" onclick="clearFilter()">Clear</button>
     </div>
    
+    <!-- Projects section -->
     <div class="items-center">
       <div class="flex-1 mx-auto">
+        <!-- Layouts for different screens (grid layout) -->
         <div id="projects" class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           
           <!-- Current Personal Portfolio Project -->
@@ -387,18 +398,21 @@
       </div>
     </div>
 
+    <!-- Cannot be in head as it needs to be called continuously on scroll -->
     <script src="js/scroll.js"></script>
   </main>
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <footer class="text-center py-6 px-10 text-xs">
     <hr class="mb-3 horizontal-gradient-line">
     <div class="inline-flex">
+      <!-- Github -->
       <a class="mx-auto" href="https://github.com/KushBharakhada">
         <img class="h-8 mx-2 rounded-full" src="images/icons/github-logo.png" alt="github logo"></a>
+      <!-- LinkedIn -->
       <a class="mx-auto" href="https://uk.linkedin.com/in/kushbharakhada">
         <img class="h-8 mx-2 rounded-full" src="images/icons/linkedin-logo.png" alt="linkedin logo"></a>
     </div>
-
     <p>Built by Kush Bharakhada, 2023</p>
     <p>All rights reserved &copy</p>
   </footer>
