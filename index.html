@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/style.css" rel="stylesheet">
+  <script src="js/filter.js"></script>
   <title>Personal Portfolio</title>
 </head>
 
@@ -33,11 +34,17 @@
     <a href="#projects"><button type="button"><img class="animate-bounce h-10" src="images/icons/scroll-down.png"></button></a>
   </nav>
 
-  <main id="projects" class="py-6 px-3 font-serif animate-fade">
-    
+  <main class="py-6 px-3 font-serif animate-fade">
+
+    <div class="items-center inline-flex mt-3 mb-3 mx-auto">
+      <input type="text" placeholder="filter e.g. python" id="filter-input" class="text-sm font-mono text-blue-400 p-2 border border-project-border rounded-lg bg-project-background-theme">
+      <button class="button-style text-sm ml-2" onclick="filter()">Enter</button>
+      <button class="button-style text-sm ml-2" onclick="clearFilter()">Clear</button>
+    </div>
+   
     <div class="items-center">
       <div class="flex-1 mx-auto">
-        <div class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div id="projects" class="grid grid-cols-1 gap-4 lg:gap-6 lg:px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
           
           <!-- Current Personal Portfolio Project -->
           <div class="main-project-div show-on-scroll">
