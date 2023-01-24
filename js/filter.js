@@ -1,4 +1,5 @@
 function filter() {
+  clearFilter()
   var userInput = document.getElementById("filter-input").value.toLowerCase().trim();
   // Get all projects
   var projects = document.querySelectorAll('.main-project-div');

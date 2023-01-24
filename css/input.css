@@ -51,6 +51,5 @@ html, body {
 
   .project-text {
     @apply text-project-descrption-theme text-sm 2xl:text-lg;
-  }
-
+  }  
 }
