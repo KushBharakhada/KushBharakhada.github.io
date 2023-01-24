@@ -1,6 +1,6 @@
-/*npx tailwindcss -i ./input.css -o ./css/style.css --watch*/
+/* npx tailwindcss -i ./css/input.css -o ./css/style.css --watch */
 
-/*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com*/
+/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -745,6 +745,10 @@ video {
   display: contents;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -886,6 +890,21 @@ video {
 .bg-haskell {
   --tw-bg-opacity: 1;
   background-color: rgb(156 70 0 / var(--tw-bg-opacity));
+}
+
+.bg-ruby {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 1 1 / var(--tw-bg-opacity));
+}
+
+.bg-sql {
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 74 72 / var(--tw-bg-opacity));
+}
+
+.bg-github-private {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 10 10 / var(--tw-bg-opacity));
 }
 
 .bg-neural-net-nav {

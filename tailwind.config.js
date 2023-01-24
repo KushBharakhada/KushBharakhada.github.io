@@ -18,6 +18,7 @@ module.exports = {
         "html": "#45014a",
         "css": "#858712",
         "ruby": "#4a0101",
+        "sql": "#484a48",
         "other": "#770180",
         "github-public": "#006b20",
         "github-private": "#400a0a"
