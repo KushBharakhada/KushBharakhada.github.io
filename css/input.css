@@ -51,5 +51,16 @@ html, body {
 
   .project-text {
     @apply text-project-descrption-theme text-sm 2xl:text-lg;
-  }  
+  }
+
+  /* Filter buttons */
+  .filter-button {
+    @apply hover:scale-105 align-middle h-10 w-10 ml-2;
+  }
+
+  .filter-button-image {
+    @apply active:border border-blue-400 rounded-full;
+  }
+
+
 }

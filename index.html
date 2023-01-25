@@ -47,8 +47,12 @@
     <div class="mx-auto text-center mt-3 mb-3">
       <input type="text" placeholder="filter e.g. python" id="filter-input" 
              class="text-sm font-mono text-blue-400 p-2 border border-project-border rounded-lg bg-project-background-theme">
-      <button class="hover:scale-105 align-middle h-8 w-8 ml-2" onclick="filter()"><img class="rounded-full" src="images/icons/search-icon.png" alt="enter filter"></button>
-      <button class="hover:scale-105 align-middle h-8 w-8 ml-2" onclick="clearFilter()"><img class="rounded-full" src="images/icons/clear-icon.png" alt="clear filter"></button>
+      <button class="filter-button" onclick="filter()">
+        <img class="filter-button-image" src="images/icons/search-icon.png" alt="enter filter">
+      </button>
+      <button class="filter-button" onclick="clearFilter()">
+        <img class="filter-button-image" src="images/icons/clear-icon.png" alt="clear filter">
+      </button>
     </div>
    
     <!-- Projects section -->
