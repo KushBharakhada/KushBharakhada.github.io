@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         "website-text-theme": "white",
-        "website-background": "black",
+        "website-background": "#02001c",
         "project-background-theme": "#111827",
         "project-hover-theme": "#181929",
         "project-border": "#202c45",
